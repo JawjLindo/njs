@@ -1,6 +1,8 @@
 import React, { FunctionComponent, PropsWithChildren } from 'react';
 import SideNav from '@/app/ui/dashboard/sidenav';
 
+export const experimental_ppr = true;
+
 const Layout: FunctionComponent<PropsWithChildren> = ({ children }) => {
   return (
     <div className='flex h-screen flex-col md:flex-row md:overflow-hidden'>
